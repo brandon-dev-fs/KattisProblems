@@ -1,22 +1,22 @@
 ﻿using System;
 
-namespace greetingsKattis
+namespace takeTwoStonesKattis
 {
     class Program
     {
         static void Main(string[] args)
         {
-            string gretting = "", newgreeting ="";
-            gretting = Console.ReadLine();
+            int stones;
 
-            for(int i = 0; i < gretting.Length; i++){
-                if(gretting[i] == 'e'){
-                    newgreeting += "ee";
-                }else{
-                    newgreeting += gretting[i];
-                }
+            stones = Convert.ToInt32(Console.ReadLine());
+
+            if(stones % 2 == 0) {
+                Console.WriteLine("Bob");
             }
-            Console.WriteLine(newgreeting);
+            else {
+                Console.WriteLine("Alice");
+                
+            }
         }
     }
 }

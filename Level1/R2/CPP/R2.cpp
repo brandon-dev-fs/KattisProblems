@@ -2,15 +2,12 @@
 
 using namespace std;
 
-int main(){
-    int stones;
+int main () {
+    int r1, s;
+    
+    cin >> r1 >> s;
 
-    cin >> stones;
+    cout << ((2*s)-r1);
 
-    if(stones % 2 == 0) {
-        cout << "Bob";
-    }
-    else {
-        cout << "Alice";
-    }
+    return 0;
 }

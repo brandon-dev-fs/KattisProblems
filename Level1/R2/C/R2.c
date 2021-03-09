@@ -1,14 +1,12 @@
 #include <stdio.h>
 
-int main(){
-    int stones;
+int main() {
+    int r1, r2, s;
 
-    scanf("%d", &stones);
+    scanf("%d%d", &r1, &s);
 
-    if (stones % 2 == 0){
-        printf("Bob");
-    }
-    else {
-        printf("Alice");
-    }
+    r2 = (2 * s) - r1;
+
+    printf("%d", r2);
+
 }
