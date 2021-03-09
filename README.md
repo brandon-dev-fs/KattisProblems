@@ -1,6 +1,6 @@
 # KattisProblems
 
-This repository hosts solutions to problems solved on open.kattis.com
+This repository hosts solutions to problems solved on [Kattis](open.kattis.com)
 
 These solutions are my own and without assistance other than personal research and education.
 
