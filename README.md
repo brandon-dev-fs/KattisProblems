@@ -3,10 +3,10 @@
 This repository hosts solutions to problems solved on [Kattis](https://open.kattis.com/)
 
 ## File Structure
-    - /Main
-    - /*PointLevel*
-    - /*Problem*
-    - /*ProgrammingLanguage*
+   - /Main
+   - /*PointLevel*
+   - /*Problem*
+   - /*ProgrammingLanguage*
 
 > ### Footnotes
 > - These solutions are my own and without assistance other than personal research and education.
