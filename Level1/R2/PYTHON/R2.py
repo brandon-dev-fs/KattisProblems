@@ -1,0 +1,5 @@
+i = input()
+r1s = i.split()
+r1 = int(r1s[0])
+s = int(r1s[1])
+print((2 * s) - r1)
