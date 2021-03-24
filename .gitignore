@@ -3,3 +3,4 @@
 *.exe
 *.csproj
 **/Greetings/C
+*.o
