@@ -7,13 +7,18 @@ int main(){
     
     getline(cin, greeting);
 
-    for(int i = 0; i < greeting.length(); i++){
+    int greetlength = greeting.length();
+
+    for(int i = 0; i < greetlength; i++){
         if(greeting[i] == 'e'){
             newgreeting += "ee";
-        }else{
+        }
+        else{
             newgreeting += greeting[i];
         }
     }
 
     cout << newgreeting;
+
+    return 0;
 }
