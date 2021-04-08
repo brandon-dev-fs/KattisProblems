@@ -10,9 +10,12 @@ namespace greetingsKattis
             gretting = Console.ReadLine();
 
             for(int i = 0; i < gretting.Length; i++){
-                if(gretting[i] == 'e'){
+                if(gretting[i] == 'e')
+                {
                     newgreeting += "ee";
-                }else{
+                }
+                else
+                {
                     newgreeting += gretting[i];
                 }
             }

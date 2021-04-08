@@ -11,10 +11,12 @@ int main(){
     int greetlength = greeting.length();
 
     for(int i = 0; i < greetlength; i++){
-        if(greeting[i] == 'e'){
+        if(greeting[i] == 'e')
+        {
             newgreeting += "ee";
         }
-        else{
+        else
+        {
             newgreeting += greeting[i];
         }
     }
